@@ -5,6 +5,6 @@ from ALPHA.views import home, segundapgn
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
-    path('segunda/', views.segundapgn, name='segundapgn'),
+    path('', home, name='home'),
+    path('segunda/', segundapgn, name='segundapgn'),
 ]
