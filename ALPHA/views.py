@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 
-def home(resquest):
-    return HttpResponse("Welcome to the ALPHA home page!")
+def home(request):
+    return HttpResponse("Bem-vindo à página inicial do ALPHA!")
+def segundapgn(request):
+    return HttpResponse("Confira nossos horários de funcionamento!")
